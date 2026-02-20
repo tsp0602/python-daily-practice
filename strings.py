@@ -1,7 +1,7 @@
 
 # -------------------------------------------------------------------------------------------
 20-2-2026
-⭐ Question 1 — Reverse a String
+# ⭐ Question 1 — Reverse a String
 s = "python"
 rev=s[::-1]
 print(rev)
