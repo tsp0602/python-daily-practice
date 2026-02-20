@@ -131,3 +131,4 @@ print(names)
 students = [("Tejas", 85), ("Rahul", 85), ("Amit", 90)]
 students.sort(key= lambda x: (x[1],x[0]))
 print(students)
+
