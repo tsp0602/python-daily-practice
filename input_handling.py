@@ -115,25 +115,23 @@
 # ( )
 
 
-n=int(input())
-arr=[]
+# n=int(input())
+# arr=[]
 
-for _ in range(n):
-    x=input()
-    x=x[1:-1]
-    x=list(map(int,x.replace("#",' ').split()))
-    arr.append(x)
-
-
-large=0
-for i in arr:
-    for j in i :
-        if j>large:
-            large=j
-
-print(large)
+# for _ in range(n):
+#     x=input()
+#     x=x[1:-1]
+#     x=list(map(int,x.replace("#",' ').split()))
+#     arr.append(x)
 
 
+# large=0
+# for i in arr:
+#     for j in i :
+#         if j>large:
+#             large=j
+
+# print(large)
 
 
 

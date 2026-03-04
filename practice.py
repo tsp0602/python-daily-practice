@@ -189,37 +189,49 @@
 
 
 
+# # -------------------------------------------------------------------------------------------
+# # hollow square
+
+# n=int(input('Enter a number of line : '))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==1 or j==1 or i==n or j==n:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print()
+
+
+
+
+
+# # -------------------------------------------------------------------------------------------
+# # hollow triangle 
+# n=int(input("Enter number of lines : "))
+# for i in range (1,n+1):
+#     for j in range(1,n+1):
+#         if i==n:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+
+
+
+
 # -------------------------------------------------------------------------------------------
-# hollow square
+# Armstrong number 
 
-n=int(input('Enter a number of line : '))
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==1 or j==1 or i==n or j==n:
-            print("*",end="")
-        else:
-            print(" ",end="")
-    print()
+inpt=int(input())
+ActualNum=inpt
+addition=0
+num=0
 
+while inpt>0:
+    num=inpt%10
+    addition+=num **3
+    inpt=inpt//10
 
-
-
-
-# -------------------------------------------------------------------------------------------
-# hollow triangle 
-n=int(input("Enter number of lines : "))
-for i in range (1,n+1):
-    for j in range(1,n+1):
-        if i==n:
-            print("*",end="")
-        else:
-            print(" ",end="")
-
-
-
-
-# -------------------------------------------------------------------------------------------
-
+print(addition==ActualNum)
 
 
 
