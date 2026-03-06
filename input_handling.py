@@ -135,4 +135,27 @@
 
 
 
+# ======================================================================================
 
+# ⭐ Coding Question — Encoded Digit Product
+# { [12] , [ 7 5 ] , , [89] , [ ] }
+inpt = input()
+inpt = inpt[1:-1]
+inpt = inpt.replace(" ", "").split(",")
+
+addition = 0
+
+for i in inpt:
+    i = i[1:-1]
+
+    if i == "":
+        pass
+    else:
+        mult = 1
+        for j in i:
+            j = int(j)
+            mult *= j
+        
+        addition += mult
+
+print(addition)
